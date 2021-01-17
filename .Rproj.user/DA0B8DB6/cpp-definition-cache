@@ -1,7 +1,7 @@
 [
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/export.cpp",
-        "file_last_write": 1610891687.0,
+        "file_last_write": 1610894241.0,
         "definitions": [
             {
                 "usr": "c:export.cpp@T@r_string",
@@ -40,7 +40,7 @@
     },
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
-        "file_last_write": 1610892459.0,
+        "file_last_write": 1610895011.0,
         "definitions": [
             {
                 "usr": "c:@S@test_class@F@getres#",
@@ -48,14 +48,23 @@
                 "parent_name": "test_class",
                 "name": "getres",
                 "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
-                "line": 12,
+                "line": 23,
+                "column": 18
+            },
+            {
+                "usr": "c:@S@test_class@F@getfunc#",
+                "kind": 7,
+                "parent_name": "test_class",
+                "name": "getfunc",
+                "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
+                "line": 26,
                 "column": 18
             }
         ]
     },
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
-        "file_last_write": 1610892562.0,
+        "file_last_write": 1610894314.0,
         "definitions": [
             {
                 "usr": "c:@S@test_class",

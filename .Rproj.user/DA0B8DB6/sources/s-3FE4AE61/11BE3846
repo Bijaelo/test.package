@@ -3,7 +3,7 @@
     "path": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
     "project_path": "src/test_class.h",
     "type": "h",
-    "hash": "0",
+    "hash": "342401501",
     "contents": "",
     "dirty": false,
     "created": 1610448631129.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,43",
+        "cursorPosition": "15,31",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1610892562,
+    "lastKnownWriteTime": 1610894314,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1610892562435,
+    "last_content_update": 1610894314055,
     "read_only": false,
     "read_only_alternatives": []
 }

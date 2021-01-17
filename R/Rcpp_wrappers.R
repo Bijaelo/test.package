@@ -17,3 +17,9 @@ createClass <- function(func, args = list(), env = new.env())
 #' @returns vector of bools from pointer.
 getres <- function(ptr)
   .Call("_getres", ptr)
+
+#' extract bools
+#'
+#' @returns vector of bools from pointer.
+getrfunc <- function(ptr)
+  .Call("_getfunc", ptr)

@@ -14,8 +14,8 @@ private:
   SEXP res; // Didn't work without PROTECT.
 public:
   test_class(SEXP, SEXP, SEXP);
-  ~test_class();
   SEXP getres();
+  SEXP getfunc();
 };
 
 #endif

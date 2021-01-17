@@ -33,6 +33,10 @@ extern "C" {
     Rcpp::XPtr<test_class> _ptr(ptr);
     return _ptr -> getres();
   }
+  SEXP getfunc(SEXP ptr){
+    Rcpp::XPtr<test_class> _ptr(ptr);
+    return _ptr -> getfunc();
+  }
 
 }
 #include <R_ext/Rdynload.h>
@@ -44,6 +48,7 @@ static const R_CallMethodDef CallEntries[] = {
   {"_test_package_rcpp_hello_world", (DL_FUNC) &_test_package_rcpp_hello_world, 0},
   {"_createClass", (DL_FUNC) &createPtr, 3},
   {"_getres", (DL_FUNC) &getres, 1},
+  {"_getfunc", (DL_FUNC) &getfunc, 1},
   /*
   {"_test_package_rcpp_hello_world_2", (DL_FUNC) &_test_package_rcpp_hello_world_2, 0},
   {"_test_package_print_values_2", (DL_FUNC) &_test_package_print_values_2, 1},
