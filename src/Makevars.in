@@ -11,7 +11,7 @@ SOURCES=@SUBDIR_SOURCES@
 OBJECTS=$(SOURCES:.cpp=.o)
 
 # Make the shared object
-all: $(SHLIB)
+all: $(SHLIB) clean
 
 # Provide recipe to remove all objects
 clean:

@@ -4,7 +4,7 @@
 \alias{createClass}
 \title{create class}
 \usage{
-createClass(bool1, bool2)
+createClass(func, args = list(), env = new.env())
 }
 \arguments{
 \item{bool1}{x1}

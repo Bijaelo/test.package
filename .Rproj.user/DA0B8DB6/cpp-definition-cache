@@ -1,7 +1,7 @@
 [
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/export.cpp",
-        "file_last_write": 1610450185.0,
+        "file_last_write": 1610891687.0,
         "definitions": [
             {
                 "usr": "c:export.cpp@T@r_string",
@@ -40,22 +40,22 @@
     },
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
-        "file_last_write": 1610449424.0,
+        "file_last_write": 1610892459.0,
         "definitions": [
             {
-                "usr": "c:@S@test_class@F@getbools#",
+                "usr": "c:@S@test_class@F@getres#",
                 "kind": 7,
                 "parent_name": "test_class",
-                "name": "getbools",
+                "name": "getres",
                 "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
-                "line": 17,
+                "line": 12,
                 "column": 18
             }
         ]
     },
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
-        "file_last_write": 1610449574.0,
+        "file_last_write": 1610892562.0,
         "definitions": [
             {
                 "usr": "c:@S@test_class",
@@ -63,10 +63,609 @@
                 "parent_name": "",
                 "name": "test_class",
                 "file": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
-                "line": 7,
+                "line": 10,
                 "column": 7
             }
         ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.cpp",
+        "file_last_write": 1610143276.0,
+        "definitions": [
+            {
+                "usr": "c:cmd_coerce.cpp@N@cmdline_arguments@N@utils@N@coerce@F@rinternal_position_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rinternal_position_",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.cpp",
+                "line": 5,
+                "column": 12
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@coerce@F@cmd_do_docall#*$@S@SEXPREC#S0_#$@N@Rcpp@S@Environment_Impl>#@N@Rcpp@ST>1#T@PreserveStorage#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cmd_do_docall(SEXP, SEXP, Rcpp::Environment, std::string)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.cpp",
+                "line": 16,
+                "column": 6
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+        "file_last_write": 1610890924.0,
+        "definitions": [
+            {
+                "usr": "c:cmd_coerce.h@T@CCODE",
+                "kind": 8,
+                "parent_name": "",
+                "name": "CCODE",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 15,
+                "column": 16
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_INVALID",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_INVALID",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 19,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_ASSIGN",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_ASSIGN",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 20,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_ASSIGN2",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_ASSIGN2",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 21,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_BINARY",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_BINARY",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 22,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_BINARY2",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_BINARY2",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 23,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_BREAK",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_BREAK",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 24,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_CURLY",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_CURLY",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 25,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_FOR",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_FOR",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 26,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_FUNCALL",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_FUNCALL",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 27,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_FUNCTION",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_FUNCTION",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 28,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_IF",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_IF",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 29,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_NEXT",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_NEXT",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 30,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_PAREN",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_PAREN",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 31,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_RETURN",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_RETURN",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 32,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_SUBASS",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_SUBASS",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 33,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_SUBSET",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_SUBSET",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 34,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_WHILE",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_WHILE",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 35,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_UNARY",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_UNARY",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 36,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_DOLLAR",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_DOLLAR",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 37,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_FOREIGN",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_FOREIGN",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 38,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPkind@PP_REPEAT",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PP_REPEAT",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 39,
+                "column": 3
+            },
+            {
+                "usr": "c:@T@PPkind",
+                "kind": 8,
+                "parent_name": "",
+                "name": "PPkind",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 40,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_FN",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_FN",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 43,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_LEFT",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_LEFT",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 44,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_EQ",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_EQ",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 45,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_RIGHT",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_RIGHT",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 46,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_TILDE",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_TILDE",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 47,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_OR",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_OR",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 48,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_AND",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_AND",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 49,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_NOT",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_NOT",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 50,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_COMPARE",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_COMPARE",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 51,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_SUM",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_SUM",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 52,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_PROD",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_PROD",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 53,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_PERCENT",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_PERCENT",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 54,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_COLON",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_COLON",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 55,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_SIGN",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_SIGN",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 56,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_POWER",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_POWER",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 57,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_DOLLAR",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_DOLLAR",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 58,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_NS",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_NS",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 59,
+                "column": 3
+            },
+            {
+                "usr": "c:@EA@PPprec@PREC_SUBSET",
+                "kind": 5,
+                "parent_name": "",
+                "name": "PREC_SUBSET",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 60,
+                "column": 3
+            },
+            {
+                "usr": "c:@T@PPprec",
+                "kind": 8,
+                "parent_name": "",
+                "name": "PPprec",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 61,
+                "column": 3
+            },
+            {
+                "usr": "c:@T@PPinfo",
+                "kind": 8,
+                "parent_name": "",
+                "name": "PPinfo",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 68,
+                "column": 3
+            },
+            {
+                "usr": "c:@T@FUNTAB",
+                "kind": 8,
+                "parent_name": "",
+                "name": "FUNTAB",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 78,
+                "column": 3
+            },
+            {
+                "usr": "c:@S@sxpinfo_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "sxpinfo_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 84,
+                "column": 8
+            },
+            {
+                "usr": "c:@S@primsxp_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "primsxp_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 109,
+                "column": 8
+            },
+            {
+                "usr": "c:@S@symsxp_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "symsxp_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 113,
+                "column": 10
+            },
+            {
+                "usr": "c:@S@listsxp_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "listsxp_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 119,
+                "column": 10
+            },
+            {
+                "usr": "c:@S@envsxp_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "envsxp_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 125,
+                "column": 10
+            },
+            {
+                "usr": "c:@S@closxp_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "closxp_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 131,
+                "column": 10
+            },
+            {
+                "usr": "c:@S@promsxp_struct",
+                "kind": 3,
+                "parent_name": "",
+                "name": "promsxp_struct",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 137,
+                "column": 10
+            },
+            {
+                "usr": "c:@S@SEXPREC",
+                "kind": 3,
+                "parent_name": "",
+                "name": "SEXPREC",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 144,
+                "column": 18
+            },
+            {
+                "usr": "c:cmd_coerce.h@T@SEXPREC",
+                "kind": 8,
+                "parent_name": "",
+                "name": "SEXPREC",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/cmd_coerce.h",
+                "line": 154,
+                "column": 5
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+        "file_last_write": 1609623148.0,
+        "definitions": [
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@find_args_c#&1$@N@std@N@__1@S@vector>#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#$@N@std@N@__1@S@allocator>#S2_#&1S2_#S6_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "find_args_c(const std::vector<std::string> &, const std::string &, const std::string &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 15,
+                "column": 21
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@find_args_single_c#&1$@N@std@N@__1@S@vector>#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#$@N@std@N@__1@S@allocator>#S2_#&1S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "find_args_single_c(const std::vector<std::string> &, const std::string &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 83,
+                "column": 21
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@substring_c#&1$@N@std@N@__1@S@vector>#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#$@N@std@N@__1@S@allocator>#S2_#&1$@N@std@N@__1@S@vector>#L#$@N@std@N@__1@S@allocator>#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "substring_c(const std::vector<std::string> &, const std::vector<long> &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 120,
+                "column": 23
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@cmdArg_matches_parser_arg#&1$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#&1K#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cmdArg_matches_parser_arg(const std::string &, const std::string &, const R_xlen_t &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 137,
+                "column": 19
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@get_cmd_arg_range#&1K#S0_#&1$@N@std@N@__1@S@vector>#K#$@N@std@N@__1@S@allocator>#K#S1_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "get_cmd_arg_range(const R_xlen_t &, const R_xlen_t &, const std::vector<R_xlen_t> &, const std::vector<R_xlen_t> &, const R_xlen_t &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 147,
+                "column": 36
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@iterate_over_parser_arg#&1$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#&$@N@std@N@__1@S@__wrap_iter>#*S1_#S4_#1S1_#&1b#&1K#S8_#&1$@N@std@N@__1@S@vector>#K#$@N@std@N@__1@S@allocator>#K#S9_#&$@N@std@N@__1@S@list>#S10_#$@N@std@N@__1@S@allocator>#S10_#S0_#S8_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "iterate_over_parser_arg(const std::string &, std::vector<std::string>::iterator &, std::vector<std::string>::iterator &, const std::string, const bool &, const R_xlen_t &, const R_xlen_t &, const std::vector<R_xlen_t> &, const std::vector<R_xlen_t> &, std::list<std::vector<R_xlen_t> > &, const std::string &, const R_xlen_t &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 161,
+                "column": 19
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@iterate_over_cmd_args#&1$@N@std@N@__1@S@vector>#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#$@N@std@N@__1@S@allocator>#S2_#&K#&1K#&1$@N@std@N@__1@S@vector>#K#$@N@std@N@__1@S@allocator>#K#S8_#S7_#&$@N@std@N@__1@S@__wrap_iter>#*S2_#S11_#&1S2_#&1b#S14_#&$@N@std@N@__1@S@list>#$@N@std@N@__1@S@list>#S9_#$@N@std@N@__1@S@allocator>#S9_#$@N@std@N@__1@S@allocator>#S18_#&S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "iterate_over_cmd_args(const std::vector<std::string> &, R_xlen_t &, const R_xlen_t &, const std::vector<R_xlen_t> &, const std::vector<R_xlen_t> &, const R_xlen_t &, std::vector<std::string>::iterator &, std::vector<std::string>::iterator &, const std::string &, const bool &, const std::string &, std::list<std::list<std::vector<R_xlen_t> > > &, std::vector<std::string> &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 187,
+                "column": 19
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@extract_args#&1$@N@std@N@__1@S@vector>#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#$@N@std@N@__1@S@allocator>#S2_#&1$@N@std@N@__1@S@list>#$@N@std@N@__1@S@list>#$@N@std@N@__1@S@vector>#K#$@N@std@N@__1@S@allocator>#K#$@N@std@N@__1@S@allocator>#S9_#$@N@std@N@__1@S@allocator>#S8_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "extract_args(const std::vector<std::string> &, const std::list<std::list<std::vector<R_xlen_t> > > &, const std::vector<std::string> &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 233,
+                "column": 18
+            },
+            {
+                "usr": "c:@N@cmdline_arguments@N@utils@N@matching@F@match_args_c#&1$@N@std@N@__1@S@vector>#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#$@N@std@N@__1@S@allocator>#S2_#&1$@N@std@N@__1@S@vector>#K#$@N@std@N@__1@S@allocator>#K#S6_#&1$@N@std@N@__1@S@vector>#S1_#$@N@std@N@__1@S@allocator>#S1_#&1$@N@Rcpp@S@Vector>#VI13#@N@Rcpp@ST>1#T@PreserveStorage#&1$@N@Rcpp@S@Vector>#VI10#@N@Rcpp@ST>1#T@PreserveStorage#&1S2_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_args_c(const std::vector<std::string> &, const std::vector<R_xlen_t> &, const std::vector<R_xlen_t> &, const std::vector<std::vector<std::string> > &, const Rcpp::IntegerVector &, const Rcpp::LogicalVector &, const std::string &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.cpp",
+                "line": 262,
+                "column": 18
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/utils/matching.h",
+        "file_last_write": 1609598580.0,
+        "definitions": []
     },
     {
         "file": "C:/Users/olive/Git_repos/test.package/src/utils/test_function.h",

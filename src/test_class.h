@@ -3,19 +3,19 @@
 #define test_h
 
 #include <string>
-using std::string;
+#include <Rcpp.h>
+#include <Rinternals.h>
+#include "utils/cmd_coerce.h"
+
 class test_class{
 private:
-  const string s1, s2, s3, s4;
-  const bool bool1, bool2;
-
+  SEXP func;
+  //Rcpp::RObject res; <- works
+  SEXP res; // Didn't work without PROTECT.
 public:
-  test_class(const string&,
-             const string&,
-             const string&,
-             const string&,
-             const bool _bool1, const bool _bool2);
-  SEXP getbools();
+  test_class(SEXP, SEXP, SEXP);
+  ~test_class();
+  SEXP getres();
 };
 
 #endif

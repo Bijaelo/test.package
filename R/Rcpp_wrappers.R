@@ -1,26 +1,4 @@
 
-#' print some values
-#'
-#' @param x single value to be printed
-#'
-#' @return NULL (invisible)
-#'
-#' @export
-print_values <- function(x){
-  if(missing(x))
-    stop("missing x")
-  .Call("_test_package_print_values", x)
-  invisible()
-}
-
-#' Print hello world
-#'
-#' @return NULL (invisible)
-#'
-#' @export
-hello_world <- function(){
-  .Call("_test_package_rcpp_hello_world")
-}
 
 #' create class
 #' @description creates a class
@@ -31,11 +9,11 @@ hello_world <- function(){
 #' @return pointer
 #'
 #' @export
-createClass <- function(s1, s2, s3, s4, bool1, bool2)
-  .Call("_createClass", s1, s2, s3, s4, bool1, bool2)
+createClass <- function(func, args = list(), env = new.env())
+  .Call("_createClass", func, args, env)
 
 #' extract bools
 #'
 #' @returns vector of bools from pointer.
-getbools <- function(ptr)
-  .Call("_getbools", ptr)
+getres <- function(ptr)
+  .Call("_getres", ptr)
