@@ -1,0 +1,27 @@
+{
+    "id": "11BE3846",
+    "path": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
+    "project_path": "src/test_class.h",
+    "type": "h",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1610448631129.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "18,2",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1610449574,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1610889618486,
+    "read_only": false,
+    "read_only_alternatives": []
+}

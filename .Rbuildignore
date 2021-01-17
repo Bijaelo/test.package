@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^autom4te.cache*
+^configure$
+^configure.ac$
+^src/Makevars.in$
+^config\.log$
+^config\.status$

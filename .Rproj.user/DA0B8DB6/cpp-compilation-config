@@ -1,0 +1,14 @@
+{
+    "args": [
+        "-IC:/Program Files/RStudio/resources/libclang/builtin-headers/5.0.2",
+        "-IC:/Program Files/RStudio/resources/libclang/builtin-headers/libc++/5.0.2",
+        "-IC:/Users/olive/Documents/R/win-library/4.0/Rcpp/include",
+        "-std=gnu++2a",
+        "-IC:/Users/olive/R/R-cran/R-40~1.3/include",
+        "-DNDEBUG",
+        "-IC:/Users/olive/Git_repos/test.package/src"
+    ],
+    "pch": "Rcpp",
+    "is_cpp": true,
+    "hash": "16104485271610449099"
+}

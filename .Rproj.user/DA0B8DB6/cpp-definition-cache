@@ -1,0 +1,100 @@
+[
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/export.cpp",
+        "file_last_write": 1610450185.0,
+        "definitions": [
+            {
+                "usr": "c:export.cpp@T@r_string",
+                "kind": 8,
+                "parent_name": "",
+                "name": "r_string",
+                "file": "C:/Users/olive/Git_repos/test.package/src/export.cpp",
+                "line": 12,
+                "column": 61
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/rcpp_hello_world.cpp",
+        "file_last_write": 1609604919.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rcpp_hello_world#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpp_hello_world",
+                "file": "C:/Users/olive/Git_repos/test.package/src/rcpp_hello_world.cpp",
+                "line": 5,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@rcpp_hello_world_2#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpp_hello_world_2",
+                "file": "C:/Users/olive/Git_repos/test.package/src/rcpp_hello_world.cpp",
+                "line": 14,
+                "column": 6
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
+        "file_last_write": 1610449424.0,
+        "definitions": [
+            {
+                "usr": "c:@S@test_class@F@getbools#",
+                "kind": 7,
+                "parent_name": "test_class",
+                "name": "getbools",
+                "file": "C:/Users/olive/Git_repos/test.package/src/test_class.cpp",
+                "line": 17,
+                "column": 18
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
+        "file_last_write": 1610449574.0,
+        "definitions": [
+            {
+                "usr": "c:@S@test_class",
+                "kind": 2,
+                "parent_name": "",
+                "name": "test_class",
+                "file": "C:/Users/olive/Git_repos/test.package/src/test_class.h",
+                "line": 7,
+                "column": 7
+            }
+        ]
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/utils/test_function.h",
+        "file_last_write": 1609611258.0,
+        "definitions": []
+    },
+    {
+        "file": "C:/Users/olive/Git_repos/test.package/src/utils/test_functions.cpp",
+        "file_last_write": 1609617795.0,
+        "definitions": [
+            {
+                "usr": "c:@N@test_func@N@utils@F@print_values#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "print_values(std::string &)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/test_functions.cpp",
+                "line": 6,
+                "column": 6
+            },
+            {
+                "usr": "c:@N@test_func@N@utils@F@print_values_2#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "print_values_2(std::string)",
+                "file": "C:/Users/olive/Git_repos/test.package/src/utils/test_functions.cpp",
+                "line": 11,
+                "column": 6
+            }
+        ]
+    }
+]
